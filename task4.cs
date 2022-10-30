@@ -12,44 +12,29 @@ namespace ConsoleApp1
             
             string month = "March";
 
-            switch (month) {
+            switch (month)
+            {
                 case "December":
-                Console.WriteLine("winter");
-                break;
                 case "January":
-                    Console.WriteLine("winter");
-                    break;    
                 case "February":
                     Console.WriteLine("winter");
                     break;
                 case "March":
-                    Console.WriteLine("spring");
-                    break;  
                 case "April":
-                    Console.WriteLine("spring");
-                    break;    
                 case "May":
                     Console.WriteLine("spring");
-                    break;    
+                    break;
                 case "June":
-                    Console.WriteLine("summer");
-                    break;    
                 case "July":
-                    Console.WriteLine("summer");
-                    break;    
                 case "August":
                     Console.WriteLine("summer");
-                    break;    
+                    break;
                 case "September":
-                    Console.WriteLine("fall");
-                    break;    
                 case "October":
-                    Console.WriteLine("fall");
-                    break;     
                 case "November":
                     Console.WriteLine("fall");
-                    break; 
-                    }
+                    break;
+            }
 
         }
     }
