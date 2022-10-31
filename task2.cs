@@ -8,9 +8,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int number = 121; //verilen ededimiz
-            int mod= 0;//ededin tersi
-            int foundNumber = 0; //tapdigimiz tersine olan eded
+            int number = 121; 
+            int mod= 0;
+            int foundNumber = 0; 
             for (int i=number; i>=1; i=i/10)
             {
                 mod = i%10;

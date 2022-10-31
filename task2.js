@@ -1,8 +1,8 @@
 //2 - Daxil edilən müsbət tam ədədin palindrom olub-olmamasını yoxlayın
 
-let number = 121; //verilen ededimiz
-let mod= 0;//ededin tersi
-let foundNumber = 0; //tapdigimiz tersine olan eded
+let number = 121; 
+let mod= 0;
+let foundNumber = 0; 
 for (let i=number; i>=1; i=i/10)
 {
     mod = i%10;
